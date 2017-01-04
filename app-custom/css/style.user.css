@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+table {
+    background-color: #000;
+    border: none;
+}
+th {
+    color: #fff;
+}
+
+#inside, td.outside {
+    border-width: 0;
+}
+#inside {
+    border-right: 1px dotted #fff;
+}
+
+.stationname {
+    display: none;
+}

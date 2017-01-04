@@ -1,0 +1,9 @@
+app:
+    build: .
+    ports:
+        - 80:80
+    environment:
+        - ACCOUNT_EMAIL=changeme
+        - ACCOUNT_PASSWORD=changeme
+        - API_CLIENT_ID=changeme
+        - API_CLIENT_SECRET=changeme
