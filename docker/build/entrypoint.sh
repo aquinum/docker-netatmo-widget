@@ -12,4 +12,5 @@ sed -i \
 
 mv ${CONFIG_FILE} ${APP_DIRECTORY}
 
+mkdir /run/nginx # fix for broken nginx install...
 supervisord -c /etc/supervisor/supervisord.conf

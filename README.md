@@ -28,5 +28,4 @@ If you want to use docker-compose, copy `docker-compose.dist.yml` to `docker-com
 
 ## Author
 
-Arnaud de Mouhy
-https://github.com/dehy
+Arnaud de Mouhy - https://github.com/dehy
