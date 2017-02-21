@@ -1,4 +1,7 @@
 <?php
+
+header("Access-Control-Allow-Origin: *");
+
 $NAusername = "____EMAIL_ACCOUNT_HERE____";
 $NApwd      = "____PASS_ACCOUNT_HERE____";
 $NAconfig   = array(
