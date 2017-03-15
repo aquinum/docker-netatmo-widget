@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+EXPOSE 80
+
 COPY ./docker/build /
 RUN sh /build_image.sh && rm /build_image.sh
 
